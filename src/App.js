@@ -1,4 +1,4 @@
-import Sidebar from "./Layout/Sidebar/Sidebar";
+import Sidebar from "~/Layout/Sidebar";
 
 function App() {
   return (

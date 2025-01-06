@@ -1,9 +1,11 @@
-.container-header {
-  max-width: 100%;
-  width: inherit;
-  height: 100px;
-  color: rgba(0, 0, 0, 0.8);
-  line-height: 1.2;
-  background-color: var(--primary);
+.wrapper {
+  background-color: #ee4d2d; /* Màu nền giống Shopee */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 

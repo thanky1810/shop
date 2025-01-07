@@ -1,3 +1,12 @@
+.wrapper {
+  padding: 0px 16px;
+  font-weight: 600;
+  width: 100%;
+  justify-content: flex-start;
+  border-radius: 0;
+  line-height: 1.8rem;
+}
+
 /* Định dạng chung cho thanh topbar */
 .navbar {
   background-color: #ee4d2d; /* Màu nền đỏ Shopee */
@@ -5,13 +14,13 @@
   display: flex; /* Dùng flexbox để sắp xếp ngang */
   justify-content: space-between; /* Khoảng cách giữa 2 bên */
   align-items: center; /* Canh giữa theo chiều dọc */
-  padding: 10px 20px;
+  padding: 0px 20px;
   font-size: 13px;
-  font-family: Arial, sans-serif;
 }
 
 /* Bên trái thanh topbar */
 .topbar-left {
+  padding-left: 120px;
   display: flex; /* Đặt các mục bên trái nằm ngang */
   gap: 15px; /* Khoảng cách giữa các mục */
 }
@@ -31,10 +40,13 @@
 /* Bên phải thanh topbar */
 .topbar-right {
   display: flex;
-  align-items: center;
+  text-align: right;
+  justify-content: right;
+  justify-items: right;
   gap: 10px;
+  padding-right: 120px;
+  cursor: pointer;
 }
-
 .icon {
   padding-left: 8px;
 }

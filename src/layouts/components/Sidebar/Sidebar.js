@@ -8,7 +8,8 @@ const cx = classNames.bind(styles)
 
 function Sidebar() {
     return (
-        <Navbar></Navbar>
+
+        <div className={cx('wrapper')}><Navbar></Navbar></div>
     );
 }
 

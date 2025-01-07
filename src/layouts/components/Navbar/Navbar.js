@@ -14,7 +14,7 @@ function Navbar() {
         <div className={cx('wrapper')} >
             <div className={cx('navbar')}>
                 <div className={cx('topbar-left')}>
-                    <a className={cx('topbar-item')}>Kênh người bán</a>
+                    <a className={cx('topbar-item')}>Kênh Người Bán</a>
                     <a className={cx('topbar-item')}>Trở Thành Người Bán Shopee</a>
                     <a className={cx('topbar-item')}>Tải Ứng Dụng</a>
                     <div className={cx('topbar-item')}>

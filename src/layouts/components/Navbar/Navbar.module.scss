@@ -1,6 +1,5 @@
 .wrapper {
   padding: 0px 16px;
-  font-weight: 600;
   width: 100%;
   justify-content: flex-start;
   border-radius: 0;
@@ -20,9 +19,9 @@
 
 /* Bên trái thanh topbar */
 .topbar-left {
-  padding-left: 120px;
+  padding-left: 105px;
   display: flex; /* Đặt các mục bên trái nằm ngang */
-  gap: 15px; /* Khoảng cách giữa các mục */
+  gap: 7px; /* Khoảng cách giữa các mục */
 }
 
 .topbar-item {
@@ -33,7 +32,7 @@
 /* Tạo dấu gạch đứng giữa các mục, trừ mục cuối cùng */
 .topbar-item:not(:last-child)::after {
   content: "|";
-  margin-left: 15px;
+  margin-left: 5px;
   color: white;
 }
 
@@ -43,10 +42,11 @@
   text-align: right;
   justify-content: right;
   justify-items: right;
-  gap: 10px;
-  padding-right: 120px;
+  gap: 20px;
+  padding-right: 125px;
   cursor: pointer;
 }
 .icon {
-  padding-left: 8px;
+  margin: 0px 5px;
+  padding-left: 3px;
 }

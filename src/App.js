@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { publicRoutes } from '~/routes'
 import DefaultLayout from '~/layouts';
 import Sidebar from '~/layouts/components/Sidebar';
+import Search from './layouts/components/Search';
 
 
 function App() {
@@ -34,7 +35,10 @@ function App() {
     //   </div>
     // </Router>
 
-    <Sidebar></Sidebar>
+  <>
+      <Sidebar></Sidebar>
+      <Search></Search>
+  </>
   )
 }
 

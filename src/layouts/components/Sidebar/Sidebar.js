@@ -11,7 +11,6 @@ function Sidebar() {
 
         <div className={cx('wrapper')}>
             <Navbar></Navbar>
-            <div>hello</div>
         </div>
     );
 }

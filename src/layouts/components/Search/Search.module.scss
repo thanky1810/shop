@@ -1,8 +1,9 @@
 .wrapper {
+  height: 85px;
   width: 100%;
   padding-left: 150px;
   padding-top: 5px;
-  background-color: red;
+  background-color: var(--primary);
 }
 
 .search-container {
@@ -10,6 +11,22 @@
 }
 
 .search-cart-logo {
-  height: 50px;
-  width: 70px;
+  height: 20px;
+  width: 100px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 840px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+}
+
+.search-cart {
+}
+
+.search-cart-icon {
 }

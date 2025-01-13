@@ -13,11 +13,12 @@ function Search() {
         <div className={cx('wrapper')}>
             <div className={cx('search-container')}>
                 <img className={cx('shopee-logo')} src={images.logo} alt='shopee' />
-                <input className={cx('search-bar')} placeholder='Shopee bao ship 0Đ -  Đăng ký ngay!' />
-                <button className={cx('button-search')}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                </button>
-
+                <div className={cx('search-main')}>
+                    <input className={cx('search-bar')} placeholder='Shopee bao ship 0Đ -  Đăng ký ngay!' />
+                    <button className={cx('search-btn')}>
+                        <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    </button>
+                </div>
                 <div className={cx('search-cart')}>
                     <FontAwesomeIcon className={cx('search-cart-icon')} icon={faCartShopping} />
                 </div>

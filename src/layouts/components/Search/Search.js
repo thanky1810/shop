@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 
 import styles from './Search.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import images from '~/assets/images'
 
 
@@ -13,8 +13,12 @@ function Search() {
         <div className={cx('wrapper')}>
             <div className={cx('search-container')}>
                 <img className={cx('shopee-logo')} src={images.logo} alt='shopee' />
-                <input className={cx('search-bar')} placeholder='Shopee bao ship 0Đ -  Đăng ký ngay!'>
-                </input>
+                <div className={cx('search-main')}>
+                    <input className={cx('search-bar')} placeholder='Shopee bao ship 0Đ -  Đăng ký ngay!' />
+                    <button className={cx('search-btn')}>
+                        <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    </button>
+                </div>
                 <div className={cx('search-cart')}>
                     <FontAwesomeIcon className={cx('search-cart-icon')} icon={faCartShopping} />
                 </div>

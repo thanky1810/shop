@@ -15,14 +15,34 @@
   width: 165px;
 }
 
+.wrapper {
+  padding-top: 12px;
+}
+.search-main {
+  display: flex;
+  width: 840px;
+  height: 40px;
+  background-color: var(--white);
+}
 .search-bar {
+  padding: 5px;
   display: flex;
   justify-content: flex-start;
   position: relative;
-  width: 840px;
-  height: 40px;
+  width: 754px;
+  height: 35px;
   border: none;
   border-radius: 2px;
+}
+
+.search-btn {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  background: var(--primary);
+  border: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-cart {

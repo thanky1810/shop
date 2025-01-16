@@ -23,6 +23,14 @@ function Search() {
                     <FontAwesomeIcon className={cx('search-cart-icon')} icon={faCartShopping} />
                 </div>
             </div>
+        <div className={cx('search-ideas')}>
+            <a className={cx('ideas')}>Đồ Nữ Trung Niên Sang Trọng</a>
+            <a className={cx('ideas')}>Áo Khoác Nam</a>
+            <a className={cx('ideas')}>Set Đồ Cho Mẹ Trẻ Trung</a>
+            <a className={cx('ideas')}>Nhẫn Đôi Bạc 100%</a>
+            <a className={cx('ideas')}>Đồ Trung Niên</a>
+            <a className={cx('ideas')}>Túi Đựng quần áo</a>
+        </div>
         </div>
     );
 }

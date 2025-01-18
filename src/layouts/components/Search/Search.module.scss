@@ -72,9 +72,14 @@
 }
 
 .search-ideas {
+  width: 900px;
   position: relative;
   text-align: center;
+  padding-left: 82px;
 }
 .ideas {
+  font-size: 1.2rem;
+  color: var(--white);
   padding-left: 10px;
+  cursor: pointer;
 }

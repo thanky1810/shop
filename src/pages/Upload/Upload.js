@@ -8,6 +8,7 @@ function Upload() {
     return (
         <div className={cx('wrapper')}>
             <h1>Upload Page</h1>
+            <div>hello</div>
         </div>
 
     );
